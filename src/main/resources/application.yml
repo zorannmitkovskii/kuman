@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kuman
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
